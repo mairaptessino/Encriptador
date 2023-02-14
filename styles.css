@@ -1,4 +1,40 @@
 body{
-    background: #CED4DA;
+    background: #E8E8E8;
+}
+
+.logo{
+    padding: 50px 0 0 0;
+}
+
+.principal{
+    background: red;
+    width: 940px;
+    text-align: center;
+    margin: 50px auto;
+}
+
+.contenedor-izquierdo{
+    background: blue;
+    width: 69%;
+    /* display: inline-block; */
+    float: left;
+    margin-top: 30px;
+}
+
+.contenedor-derecho{
+    background: green;
+    width: 29%;
+    display: inline-block;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+.muñeco{
+    width:80%;
+}
+
+footer{
+    text-align: center;
+    margin-top: 35px;
 }
 
