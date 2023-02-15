@@ -8,7 +8,7 @@ body{
 
 .principal{
     background: red;
-    width: 940px;
+    width: 960px;
     text-align: center;
     margin: 50px auto;
 }
@@ -21,16 +21,36 @@ body{
     margin-top: 30px;
 }
 
+textarea{
+    border: none;
+}
+
+.botones{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.boton1{
+    margin-right: 50px;
+}
+
 .contenedor-derecho{
     background: green;
     width: 29%;
+    height: auto;
     display: inline-block;
     margin-top: 30px;
     border-radius: 20px;
 }
 
 .muñeco{
-    width:80%;
+    width:70%;
+}
+
+.primer-parrafo{
+    font-style: bold;
 }
 
 footer{
