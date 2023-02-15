@@ -1,60 +1,106 @@
 body{
-    background: #E8E8E8;
+    background: #EFF1FA;
 }
 
 .logo{
-    padding: 50px 0 0 0;
+    padding: 25px 0 0 0;
 }
 
 .principal{
-    background: red;
-    width: 960px;
+    width: 940px;
     text-align: center;
-    margin: 50px auto;
+    margin: 0 auto;
 }
 
 .contenedor-izquierdo{
-    background: blue;
-    width: 69%;
-    /* display: inline-block; */
+    background: #EFF1FA;
+    width: 74%;
     float: left;
-    margin-top: 30px;
 }
 
 textarea{
     border: none;
+    background: #EFF1FA;
+    resize: none;
+    outline: none;
+}
+
+.texto-superior{
+    margin-top: 60px;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    color: #0A3871
+}
+
+#reglas{
+    text-align: left;
+    margin-left: 100px;
+    font-weight: 400;
+    font-size: 12px;
+    color: #495057;
+    opacity: 0.8;
 }
 
 .botones{
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
-    margin-top: 50px;
+    justify-content: left;
+    margin-left: 100px;    
 }
 
 .boton1{
-    margin-right: 50px;
+    margin-right: 25px;
+    width: 150px;
+    height: 37px;
+    border-radius: 8px;
+    background: #0A3871;
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+.boton2{
+    margin-left: 25px;
+    width: 150px;
+    height: 37px;
+    border-radius: 8px;
+    background: #D8DFE8;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
 }
 
 .contenedor-derecho{
-    background: green;
-    width: 29%;
+    background: #ffffff;
+    width: 24%;
     height: auto;
     display: inline-block;
-    margin-top: 30px;
     border-radius: 20px;
 }
 
 .muñeco{
     width:70%;
+    margin-top: 130px;
 }
 
 .primer-parrafo{
-    font-style: bold;
+    font-weight: 700;
+    font-size: 20px;
+    color: #343A40;
+    margin-top: 20px;
+}
+
+.segundo-parrafo{
+    font-weight: 400;
+    font-size: 12px;
+    color: #495057;
+    margin-top: 5px;
+    margin-bottom: 70px;
 }
 
 footer{
     text-align: center;
-    margin-top: 35px;
+    margin-top: 30px;
+    background: lightgray;
 }
 

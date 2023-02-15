@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,19 +8,23 @@
     <title>Encriptador</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <header>
         <div class="logo">
-            <img src="./images/logo.png"> 
+            <img src="./images/logo.png">
         </div>
     </header>
-    
+
     <main>
         <div class="principal">
             <div class="contenedor-izquierdo">
-                <textarea name="textarea" rows="30" cols="50">Ingrese el texto aquí</textarea>
-                <p>Solo letras minúsculas y sin acentos</p>
+                <textarea class="texto-superior" name="textarea" rows="8" cols="30">Ingrese el texto aquí</textarea>
+                <p id="reglas">Solo letras minúsculas y sin acentos</p>
                 <div class="botones">
                     <button class="boton1" type="text" value="Encriptar">Encriptar</button>
                     <button class="boton2" type="text" value="Desencriptar">Desencriptar</button>
@@ -29,10 +34,9 @@
             </div>
 
             <div class="contenedor-derecho">
-                <textarea name="textarea" rows="10" cols="35">Ingrese el texto aquí</textarea>
                 <img class="muñeco" src="./images/Muñeco.png">
                 <p class="primer-parrafo">Ningún mensaje fue encontrado</p>
-                <p>Ingresa el texto que desees encriptar o desencriptar</p>
+                <p class="segundo-parrafo">Ingresa el texto que desees encriptar o desencriptar</p>
 
             </div>
 
@@ -43,4 +47,5 @@
         <h3>Desarrollado por Maira Pérez Tessino</h2>
     </footer>
 </body>
+
 </html>
